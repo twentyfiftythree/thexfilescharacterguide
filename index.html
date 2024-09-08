@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The X-Files: Character Guide</title>
+</head>
+
+<body>
+    <h1>The X-Files: Character Guide</h1>
+
+    <main>
+
+        <section>
+            <input type="text" placeholder="Enter your search here" id="input-search">
+            <button onclick="pesquisar()">Search</button>
+            <script>
+                window.onload = function() {
+                  document.getElementById("input-search").focus();
+                };
+              </script>
+        </section>
+
+        <section class="resultados-pesquisa"
+        id="resultados-pesquisa">
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Project for 'imersão dev_ Alura com Google Gemini 2024'</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
